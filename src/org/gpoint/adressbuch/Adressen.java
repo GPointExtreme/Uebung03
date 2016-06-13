@@ -15,6 +15,12 @@ public class Adressen {
 		this.email = email;
 	}
 
+	@Override
+	public String toString() {
+		return "Adressen [firstname=" + firstname + ", lastname=" + lastname + ", mobileNumber=" + mobileNumber
+				+ ", email=" + email + "]";
+	}
+
 	public String getFirstname() {
 		return firstname;
 	}

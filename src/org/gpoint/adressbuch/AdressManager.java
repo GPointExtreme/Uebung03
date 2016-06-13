@@ -16,6 +16,10 @@ public class AdressManager {
 		return list;
 	}
 	
+	public void add(Adressen a) {
+		list.add(a);
+	}
+	
 	public void loadFromCsv(String path, String seperator) throws AddressLoadException {
 		File file = new File(path);
 		
